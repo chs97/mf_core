@@ -1,5 +1,5 @@
 import type { Compiler, WebpackPluginInstance } from 'webpack';
-import { type moduleFederationPlugin } from '@module-federation/sdk';
+import type { moduleFederationPlugin } from '@module-federation/sdk';
 import { DevPlugin } from './DevPlugin';
 import { TypesPlugin } from './TypesPlugin';
 

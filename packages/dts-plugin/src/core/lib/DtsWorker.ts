@@ -1,7 +1,8 @@
 import path from 'path';
 import cloneDeepWith from 'lodash.clonedeepwith';
 
-import { type RpcWorker, createRpcWorker } from '../rpc/index';
+import { createRpcWorker } from '../rpc/index';
+import type { RpcWorker } from '../rpc/rpc-worker';
 import type { RpcMethod } from '../rpc/types';
 import type { DTSManagerOptions } from '../interfaces/DTSManagerOptions';
 import type { DTSManager } from './DTSManager';
